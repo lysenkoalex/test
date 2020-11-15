@@ -1,0 +1,17 @@
+.tabs {
+  list-style: none;
+  display: flex;
+  text-transform: uppercase;
+  justify-content: center;
+  padding-top: 1rem;
+  &__item {
+    font-size: .75em;
+    margin-left: 1rem;
+    color: #ff4300;
+    cursor: pointer;
+    &--active {
+      color: #bec9dd;
+      cursor: default;
+    }
+  }
+}

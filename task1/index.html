@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>FFW test work</title>
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="block">
+        <div class="block__header">
+          <h2 class="block__header-title">Please select one font</h2>
+          <ul class="tabs" role="tablist">
+            <li class="tabs__item tabs__item--active" data-target="my-fonts">My fonts</li>
+            <li class="tabs__item" data-target="by-fonts">Buy Fonts</li>
+          </ul>
+        </div>
+        <div class="tab-content show" id="my-fonts">
+          <div class="block__body">
+            <div class="cards">
+                <div class="cards__item cards__item-wide">
+                  <input id="font-merriweather" type="radio" name="buy-font" value="merriweather">
+                  <label class="cards__item-content card" for="font-merriweather">
+                    <span class="card__icon" style="background-color: #00a652;">m</span>
+                    <span class="card__text">Merriweather projects is led by Sorkin Type</span>
+                  </label>
+                </div>
+
+                <div class="cards__item cards__item-normal">
+                  <input id="font-roboto" type="radio" name="buy-font" value="roboto" checked>
+                  <label class="cards__item-content card" for="font-roboto">
+                    <span class="card__icon" style="background-color: #ff7fc2;">r</span>
+                    <span class="card__text">Roboto doesn't compromise, allowing letters</span>
+                  </label>
+                </div>
+
+                <div class="cards__item cards__item-normal">
+                  <input id="font-noto-sans" type="radio" name="buy-font" value="noto-sans">
+                  <label class="cards__item-content card" for="font-noto-sans">
+                    <span class="card__icon" style="background-color: #006dfe;">ns</span>
+                    <span class="card__text">Noto Sans covers over 30 scripts</span>
+                  </label>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content" id="by-fonts">
+          <div class="block__body">
+            Dummy text
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

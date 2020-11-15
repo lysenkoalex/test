@@ -1,0 +1,22 @@
+.block {
+  padding-bottom: 1rem;
+  &__header {
+    padding: 1rem;
+    @media (min-width: 40rem) {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    &-title {
+      font-size: 1.5rem;
+    }
+  }
+  &__body {
+    border: 2px solid #c2ccdf;
+    border-radius: .375rem;
+    min-height: 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
